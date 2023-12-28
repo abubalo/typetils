@@ -1,14 +1,22 @@
 {
-  "name": "@types/typedash",
+  "name": "typetils",
   "version": "1.0.0",
-  "description": "",
+  "description": "A versatile collection of Typescript utility types, designed to streamline and enhance the development experience.",
   "main": "index.ts",
   "types": "index.ts",
 
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "TypeScript utilities",
+    "Type manipulation",
+    "Type helpers",
+    "TypeScript types",
+    "Type augmentation",
+    "Type management",
+    "Type enhancements",
+    "Development utilities",
+    "TypeScript enhancements",
+    "Type simplification"
+  ],
+  "author": "Abubakar Balogun",
+  "license": "MIT"
 }

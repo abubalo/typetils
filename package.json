@@ -2,8 +2,7 @@
   "name": "typetils",
   "version": "1.0.0",
   "description": "A versatile collection of Typescript utility types, designed to streamline and enhance the development experience.",
-  "main": "index.ts",
-  "types": "index.ts",
+  "types": "index.d.ts",
 
   "keywords": [
     "TypeScript utilities",

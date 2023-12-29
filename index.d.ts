@@ -46,6 +46,7 @@ export type ValueOf<T> = T[keyof T];
 export type Infer<T> = T extends (infer U)[] ? U : T;
 
 export type TypeOf<T extends { [K in keyof T]: T[K] }> = T[keyof T];
+
 export type ElementTypeAtIndex<
   T extends any[],
   Index extends number
@@ -95,6 +96,7 @@ export type Flatten<T extends any[]> = T extends [infer X, ...infer Rest]
     ? [...Flatten<X>, ...Flatten<Rest>]
     : [X, ...Flatten<Rest>]
   : [];
+  
 export type Mutable<T> = {
   -readonly [K in keyof T]: T[K];
 };
